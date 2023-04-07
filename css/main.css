@@ -1238,7 +1238,7 @@ header{
 	width: 100%;
 	height: auto;
 	clear: both;
-	display: none;
+	/* display: none; */
 }
 .main-navigation > li {
 	display: block;
