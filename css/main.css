@@ -408,6 +408,8 @@ img.pull-left {
 	.bgrid {
 		padding: 0;
 	}
+}#main-nav-wrap{
+	visibility: hidden;
 }
 
 /**
@@ -1100,11 +1102,11 @@ header .top-bar {
 	margin-left: 0px;
 }
 header .logo {
-	float: left;
+	/* float: left;
 	/* margin-left: 20px; */
-	margin-right: 50px;
+	/* margin-right: 50px;
 	margin-top: 25px;
-	position: center;
+	position: center;  */
 }
 header .logo a {
 	display: block;
@@ -1119,83 +1121,27 @@ header .logo a {
     font-family:'Comic Sans MS';
 	/* background-size: 113px 30px; */
 }
+.bar,.main-navigation{
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+	align-items: center;
+}
 header{
 	background-color: black;
-	width: 220px;
+	width: 100%;
 	height:66px;
-	display: inline;
+	/* display: inline; */
 }
 
 /**
  * menu toggle - (_layout.css)
  * ------------------------------------------------------------------- 
  */
-.menu-toggle {
-	float: left;
-	width: 40px;
-	height: 40px;
-	margin-left: 20px;
-	margin-top: 20px;
-	display: block;
-	position: relative;
-}
-.menu-toggle span {
-	display: block;
-	background-color: #FF0077;
-	width: 24px;
-	height: 3px;
-	margin-top: -1.5px;
-	font: 0/0 a;
-	text-shadow: none;
-	color: transparent;
-	position: absolute;
-	right: 8px;
-	top: 50%;
-	bottom: auto;
-	left: auto;
-	-moz-transition: background 0.2s ease-in-out;
-	-o-transition: background 0.2s ease-in-out;
-	-webkit-transition: background 0.2s ease-in-out;
-	-ms-transition: background 0.2s ease-in-out;
-	transition: background 0.2s ease-in-out;
-}
-.menu-toggle span::before, .menu-toggle span::after {
-	content: '';
-	width: 100%;
-	height: 100%;
-	background-color: inherit;
-	position: absolute;
-	left: 0;
-	-moz-transition-duration: 0.2s, 0.2s;
-	-o-transition-duration: 0.2s, 0.2s;
-	-webkit-transition-duration: 0.2s, 0.2s;
-	-ms-transition-duration: 0.2s, 0.2s;
-	transition-duration: 0.2s, 0.2s;
-	-moz-transition-delay: 0.2s, 0s;
-	-o-transition-delay: 0.2s, 0s;
-	-webkit-transition-delay: 0.2s, 0s;
-	-ms-transition-delay: 0.2s, 0s;
-	transition-delay: 0.2s, 0s;
-}
-.menu-toggle span::before {
-	top: -8px;
-	-moz-transition-property: top, transform;
-	-o-transition-property: top, transform;
-	-webkit-transition-property: top, transform;
-	-ms-transition-property: top, transform;
-	transition-property: top, transform;
-}
-.menu-toggle span::after {
-	bottom: -8px;
-	-moz-transition-property: bottom, transform;
-	-o-transition-property: bottom, transform;
-	-webkit-transition-property: bottom, transform;
-	-ms-transition-property: bottom, transform;
-	transition-property: bottom, transform;
-}
+
 
 /* is clicked */
-.menu-toggle.is-clicked span {
+/* /* .menu-toggle.is-clicked span {
 	background-color: rgba(255, 0, 119, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
@@ -1204,7 +1150,7 @@ header{
 	-o-transition-delay: 0s, 0.2s;
 	-webkit-transition-delay: 0s, 0.2s;
 	-ms-transition-delay: 0s, 0.2s;
-	transition-delay: 0s, 0.2s;
+	transition-delay: 0s, 0.2s;s
 }
 .menu-toggle.is-clicked span::before {
 	top: 0;
@@ -1217,7 +1163,7 @@ header{
 	-webkit-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
-}
+} 
 
 /* navigation panel */
 #main-nav-wrap {
@@ -1232,7 +1178,6 @@ header{
 
 /* dropdown nav */
 .main-navigation {
-	background: #000000;
 	padding: 24px 30px 42px;
 	margin: 0;
 	width: 100%;
@@ -1274,7 +1219,7 @@ header{
 	}
 }
 @media only screen and (max-width:768px) {
-	header .top-bar {
+	header .nav-menu {
 		/* left: 50px; */
 	}
 }
@@ -1782,7 +1727,106 @@ header{
 	}
 	#resume .timeline-header, #resume .timeline-content {
 		padding-left: 5.5rem;
+	}#nav-menu{
+		visibility: hidden;
+	}.menu-toggle {
+		float: left;
+		width: 40px;
+		height: 40px;
+		margin-left: 20px;
+		margin-top: 20px;
+		display: block;
+		position: relative;
 	}
+	.menu-toggle span {
+		display: block;
+		background-color: #FF0077;
+		width: 24px;
+		height: 3px;
+		margin-top: -1.5px;
+		font: 0/0 a;
+		text-shadow: none;
+		color: transparent;
+		position: absolute;
+		right: 8px;
+		top: 50%;
+		bottom: auto;
+		left: auto;
+		-moz-transition: background 0.2s ease-in-out;
+		-o-transition: background 0.2s ease-in-out;
+		-webkit-transition: background 0.2s ease-in-out;
+		-ms-transition: background 0.2s ease-in-out;
+		transition: background 0.2s ease-in-out;
+	}
+	.menu-toggle span::before, .menu-toggle span::after {
+		content: '';
+		width: 100%;
+		height: 100%;
+		background-color: inherit;
+		position: absolute;
+		left: 0;
+		-moz-transition-duration: 0.2s, 0.2s;
+		-o-transition-duration: 0.2s, 0.2s;
+		-webkit-transition-duration: 0.2s, 0.2s;
+		-ms-transition-duration: 0.2s, 0.2s;
+		transition-duration: 0.2s, 0.2s;
+		-moz-transition-delay: 0.2s, 0s;
+		-o-transition-delay: 0.2s, 0s;
+		-webkit-transition-delay: 0.2s, 0s;
+		-ms-transition-delay: 0.2s, 0s;
+		transition-delay: 0.2s, 0s;
+	}
+	.menu-toggle span::before {
+		top: -8px;
+		-moz-transition-property: top, transform;
+		-o-transition-property: top, transform;
+		-webkit-transition-property: top, transform;
+		-ms-transition-property: top, transform;
+		transition-property: top, transform;
+	}
+	.menu-toggle span::after {
+		bottom: -8px;
+		-moz-transition-property: bottom, transform;
+		-o-transition-property: bottom, transform;
+		-webkit-transition-property: bottom, transform;
+		-ms-transition-property: bottom, transform;
+		transition-property: bottom, transform;
+	} .menu-toggle.is-clicked span {
+		background-color: rgba(255, 0, 119, 0);
+	}
+	.menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
+		background-color: #ff0077;
+		-moz-transition-delay: 0s, 0.2s;
+		-o-transition-delay: 0s, 0.2s;
+		-webkit-transition-delay: 0s, 0.2s;
+		-ms-transition-delay: 0s, 0.2s;
+		transition-delay: 0s, 0.2s;
+	}
+	.menu-toggle.is-clicked span::before {
+		top: 0;
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.menu-toggle.is-clicked span::after {
+		bottom: 0;
+		-webkit-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}#main-nav-wrap{
+		visibility: visible;
+	}
+	
+	/* navigation panel  */
+	 /* #main-nav-wrap {
+		display: block;
+		width: 100%;
+		font-family: "poppins-medium", sans-serif;
+		font-size: 1.5rem;
+		position: absolute;
+		top: 100%;
+		left: 0;
+	} */
 }
 
 
