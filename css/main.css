@@ -2601,15 +2601,15 @@
 
 	/* display: none; */
 	
-.nav-menu p{
+#nav-menu p{
 	color: white;
 	cursor: pointer;
-}.nav-menu a:hover {
+}#nav-menu a:hover {
 	color: #FF0077;
 	padding-left: 1rem;
 }
 
-.nav-menu{
+#nav-menu{
 	display: flex;
 	justify-content: space-between;
 	gap: 10px;
@@ -2619,7 +2619,7 @@
 }header{
 	display: none;
 }
-.nav-menu a{
+#nav-menu a{
 	color: white;
 }
 #name{
