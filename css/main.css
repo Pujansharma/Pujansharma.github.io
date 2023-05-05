@@ -1787,11 +1787,19 @@
 	 }
 	 #resume .timeline-header, #resume .timeline-content {
 		 padding-left: 5.5rem;
-	 }#resopnsive_nav{
-		display: none;
-	 }header{
-		display: block;
 	 }
+	  #resopnsive_nav{
+		/* visibility: hidden; */
+		display: none;
+	 }
+	 header{ 
+		display: block;
+		visibility: visible;
+		background-color: black;
+		width: 220px;
+		height:66px;
+		display: inline;
+	 } 
 	}
  
  
@@ -2615,9 +2623,12 @@
 	gap: 10px;
 	width: 400px;
 	margin-left: 900px;
+	/* position: absolute; */
 	/* margin-top: 20px; */
 }header{
-	display: none;
+	/* display: none; */
+	visibility: hidden;
+	/* position: absolute; */
 }
 #nav-menu a{
 	color: white;
@@ -2643,5 +2654,6 @@
 	/* background-size: 113px 30px; */
 }#resopnsive_nav{
 	padding-top: 20px;
-	/* background-color: white; */
+	/* position: fixed; */
+	/* background-color: black; */
 }
