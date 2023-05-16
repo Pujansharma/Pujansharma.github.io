@@ -1,0 +1,75 @@
+[
+    {
+        "name": "ExpressJS",
+        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
+    },
+    {
+        "name": "NodeJS",
+        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+    },
+    {
+        "name": "Typecript",
+        "icon": "https://img.icons8.com/color/48/000000/typescript.png"
+    },
+    {
+        "name": "Redis",
+        "icon": "https://img.icons8.com/color/48/000000/redis.png"
+    },
+    {
+        "name": "MySql",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "ChakraUI",
+        "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png"
+    },
+    {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    },
+    {
+        "name": "ReactJs",
+        "icon": "https://img.icons8.com/color/48/000000/react-native.png"
+    },
+    {
+        "name": "Npm",
+        "icon": "https://img.icons8.com/color/48/000000/npm.png"
+    },
+    {
+        "name": "Heroku",
+        "icon": "https://img.icons8.com/color/48/000000/heroku.png"
+    },
+    {
+        "name": "Netlify",
+        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+    },
+    {
+        "name": "Git VCS",
+        "icon": "https://img.icons8.com/color/48/000000/git.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    },
+    {
+        "name": "Ubuntu",
+        "icon": "https://img.icons8.com/color/48/000000/ubuntu--v1.png"
+    },
+    {
+
+        "name": "VSCode",
+        "icon": "https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png"
+    }
+]
