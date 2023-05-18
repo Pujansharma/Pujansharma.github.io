@@ -59,11 +59,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Ayush kr Shanu";
+            document.title = "Portfolio | Pujan-sharma";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Portfolio | Ayush kr Shanu";
+            document.title = "Portfolio | Pujan-sharma";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
     });
