@@ -110,7 +110,7 @@ function showProjects(projects) {
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="http://127.0.0.1:5501/assets/images/projects/${project.image}.PNG" alt="project" />
+      <img draggable="false" src="../assets/images/projects/${project.image}.PNG" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
@@ -244,4 +244,11 @@ GitHubCalendar(".calendar", "Ayush-kr-shanu", {
     responsive: true,
     global_stats: true,
     tooltips: true
+  });
+  document.querySelector("#btn1").addEventListener("click", ()=>{
+    window.location.href="https://drive.google.com/file/d/1LUt1hHXN-n2oSsQR4IVhJvuPn9uz07Xg/view"
+  });
+
+  document.querySelector(".btn1111").addEventListener("click", ()=>{
+    window.location.href="https://drive.google.com/file/d/1LUt1hHXN-n2oSsQR4IVhJvuPn9uz07Xg/view"
   });
