@@ -185,8 +185,7 @@
       <div class="image-box">
         <img draggable="false" src="./assets/images/contact1.png" alt="">
       </div>
-    <form id="contact-form" action="mailto:sharmapujan209@gmail.com" aria-label="Mail" target="_blank">
-      
+    <form name="submit-to-google-sheet">
       <div class="form-group">
         <div class="field">
           <input type="text" name="name" placeholder="Name" required>
@@ -288,6 +287,18 @@
 <!-- <script>
   AOS.init();
 </script> -->
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwcWKYn_YgIVX2c9jt4Y80LNgHTTUJcPsmM3wr0mSqLmOWpTNRYGKzVyUWfgWV0ojw7lw/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 
 </body>
 </html>
