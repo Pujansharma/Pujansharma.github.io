@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="./projects/style.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <!-- Font Awesome -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
     <!-- Favicon -->
@@ -140,12 +143,37 @@
 
 
 <!-- work project section starts -->
-<section class="work" id="work">
+<!-- <section class="work" id="work"> -->
 
   <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
 
-  <div class="box-container">
-    
+ 
+
+  <hr class="dukin-hrr">
+  <!--==================== PORTFOLIO ====================-->
+  <!-- id="portfolio" -->
+  
+<!-- work project section starts -->
+<section class="work" id="work">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+  
+    <div class="box-container">
+      
+      
+  </div>
+  
+  <!-- <div class="viewall">
+    <a href="/projects" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+  </a> -->
+  </div>
+  
+  </section>
+  
+
+
+ 
     
 </div>
 
@@ -287,14 +315,14 @@
   const scriptURL = 'https://script.google.com/macros/s/AKfycbwcWKYn_YgIVX2c9jt4Y80LNgHTTUJcPsmM3wr0mSqLmOWpTNRYGKzVyUWfgWV0ojw7lw/exec'
   const form = document.forms['submit-to-google-sheet']
 
-  form.addEventListener('submit', e => {
+  form.addEventListener('submit', (e)=> {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
       Swal.fire({
   title: 'Message Sent Succesfully',
-  timer: 1500
+  timer: 2000
 })
   })
 
@@ -304,5 +332,7 @@
 
 </body>
 </html>
-
+<!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script> -->
+<script src="./assets/js/swiper-bundle.min.js"></script>
+<script src="./assets/js/main.js"></script>
 

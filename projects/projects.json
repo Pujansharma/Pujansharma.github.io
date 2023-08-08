@@ -1,42 +1,42 @@
 [
-  {
-    "name": "Video-Chat-App",
-    "desc": "HTML CSS JS used for Frontend and NodeJs ExpressJs socektIo and MongoDb for Backend Used as Techstacks in this  project. It is Collaborative project completed in 5 days. ",
-    "image": "stream",
-    "category": "Full stack web Development",
-    "links": {
-      "view": "https://amazing-sorbet-4aa114.netlify.app",
-      "code": "https://github.com/Jatin-Lalit/skinny-hands-1942"
+    {
+      "name": "Video-Chat-App",
+      "desc": "HTML CSS JS used for Frontend and NodeJs ExpressJs socektIo and MongoDb for Backend Used as Techstacks in this  project. It is Collaborative project completed in 5 days. ",
+      "image": "stream",
+      "category": "Full stack web Development",
+      "links": {
+        "view": "https://amazing-sorbet-4aa114.netlify.app",
+        "code": "https://github.com/Jatin-Lalit/skinny-hands-1942"
+      }
+    },
+    {
+      "name": "Bookstone.com",
+      "desc": "Basic HTML CSS JS NodeJs ExpressJs Used as Techstacks in this  project. It is solo project completed in 5 days. ",
+      "image": "Brookstone",
+      "category": "Full stack web Development",
+      "links": {
+        "view": "https://bespoke-lamington-3025ef.netlify.app",
+        "code": "https://github.com/Pujansharma/-null-industry-4610"
+      }
+    },
+    {
+      "name": "NYKKA(Clone)",
+      "desc": "This is a collaborative project of 5 people. Main features is json, Login signup, Localstorage dynamic nav bar etc. Tech Stack is HTML CSS JS JSON",
+      "image": "nykka",
+      "category": "Full stack web Development",
+      "links": {
+        "view": "https://dynamic-elf-290796.netlify.app/",
+        "code": "https://github.com/0AvinashMohanDev1/acidic-blade-1610"
+      }
+    },
+    {
+      "name": "Cultfit.com",
+      "desc": "Basic HTML CSS JS and BootStrap Project of an Ecommerce website and It is a solo project completed in 5 days.",
+      "image": "Cult",
+      "category": "Front-end Development",
+      "links": {
+        "view": "https://bespoke-lamington-3025ef.netlify.app/",
+        "code": "https://github.com/Pujansharma/smart-night-1458"
+      }
     }
-  },
-  {
-    "name": "Bookstone.com",
-    "desc": "Basic HTML CSS JS NodeJs ExpressJs Used as Techstacks in this  project. It is solo project completed in 5 days. ",
-    "image": "Brookstone",
-    "category": "Full stack web Development",
-    "links": {
-      "view": "https://bespoke-lamington-3025ef.netlify.app",
-      "code": "https://github.com/Pujansharma/-null-industry-4610"
-    }
-  },
-  {
-    "name": "NYKKA(Clone)",
-    "desc": "This is a collaborative project of 5 people. Main features is json, Login signup, Localstorage dynamic nav bar etc. Tech Stack is HTML CSS JS JSON",
-    "image": "nykka",
-    "category": "Full stack web Development",
-    "links": {
-      "view": "https://dynamic-elf-290796.netlify.app/",
-      "code": "https://github.com/0AvinashMohanDev1/acidic-blade-1610"
-    }
-  },
-  {
-    "name": "Cultfit.com",
-    "desc": "Basic HTML CSS JS and BootStrap Project of an Ecommerce website and It is a solo project completed in 5 days.",
-    "image": "Cult",
-    "category": "Front-end Development",
-    "links": {
-      "view": "https://bespoke-lamington-3025ef.netlify.app/",
-      "code": "https://github.com/Pujansharma/smart-night-1458"
-    }
-  }
-]
+  ]
