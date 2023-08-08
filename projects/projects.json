@@ -1,12 +1,12 @@
 [
     {
       "name": "Video-Chat-App",
-      "desc": "HTML CSS JS used for Frontend and NodeJs ExpressJs socektIo and MongoDb for Backend Used as Techstacks in this  project. It is Collaborative project completed in 5 days. ",
+      "desc": "Stream-space is a real-time video chat platform that allows users to communicate face-to-face and live chat from anywhere in the world. With a high-quality and user-friendly design. ",
       "image": "stream",
       "category": "Full stack web Development",
       "links": {
         "view": "https://amazing-sorbet-4aa114.netlify.app",
-        "code": "https://github.com/Jatin-Lalit/skinny-hands-1942"
+        "code": "https://github.com/Pujansharma/Stream_Space.com"
       }
     },
     {
@@ -15,7 +15,7 @@
       "image": "Brookstone",
       "category": "Full stack web Development",
       "links": {
-        "view": "https://bespoke-lamington-3025ef.netlify.app",
+        "view": "https://brookstone-application.netlify.app/",
         "code": "https://github.com/Pujansharma/-null-industry-4610"
       }
     },
@@ -30,13 +30,13 @@
       }
     },
     {
-      "name": "Cultfit.com",
-      "desc": "Basic HTML CSS JS and BootStrap Project of an Ecommerce website and It is a solo project completed in 5 days.",
-      "image": "Cult",
+      "name": "petcare.com",
+      "desc": "Petcare is a platform where users can book appointments with veterinary doctors for their pets or animals. The system allows registered users to schedule appointments at their convenience and the doctors can confirm or cancel the appointments.",
+      "image": "petcare",
       "category": "Front-end Development",
       "links": {
-        "view": "https://bespoke-lamington-3025ef.netlify.app/",
-        "code": "https://github.com/Pujansharma/smart-night-1458"
+        "view": "https://petcare-hub.netlify.app/",
+        "code": "https://github.com/Pujansharma/Petcare-unit-6-project"
       }
     }
   ]
