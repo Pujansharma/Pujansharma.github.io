@@ -5,28 +5,28 @@
       "image": "stream",
       "category": "Full stack web Development",
       "links": {
-        "view": "https://amazing-sorbet-4aa114.netlify.app",
+        "view": "https://spacestream-app.netlify.app/",
         "code": "https://github.com/Pujansharma/Stream_Space.com"
       }
     },
     {
       "name": "Bookstone.com",
-      "desc": "Basic HTML CSS JS NodeJs ExpressJs Used as Techstacks in this  project. It is solo project completed in 5 days. ",
+      "desc": "HTML CSS JS NodeJs ExpressJs Used as Techstacks in this  project. It is solo project completed in 5 days. ",
       "image": "Brookstone",
       "category": "Full stack web Development",
       "links": {
-        "view": "https://brookstone-application.netlify.app/",
-        "code": "https://github.com/Pujansharma/-null-industry-4610"
+        "view": "https://brookstone-hub.netlify.app/ ",
+        "code": "https://github.com/Pujansharma/Brookstone"
       }
     },
     {
-      "name": "NYKKA(Clone)",
-      "desc": "This is a collaborative project of 5 people. Main features is json, Login signup, Localstorage dynamic nav bar etc. Tech Stack is HTML CSS JS JSON",
+      "name": "Cultfit(Clone)",
+      "desc": "HTML CSS JS NodeJs ExpressJs Used as Techstacks in this  project. It is solo project completed in 5 days.",
       "image": "nykka",
       "category": "Full stack web Development",
       "links": {
-        "view": "https://dynamic-elf-290796.netlify.app/",
-        "code": "https://github.com/0AvinashMohanDev1/acidic-blade-1610"
+        "view": "https://gentle-beijinho-a9ba89.netlify.app/",
+        "code": "https://github.com/Pujansharma/Cultfit.com"
       }
     },
     {
@@ -36,7 +36,7 @@
       "category": "Front-end Development",
       "links": {
         "view": "https://petcare-hub.netlify.app/",
-        "code": "https://github.com/Pujansharma/Petcare-unit-6-project"
+        "code": "https://github.com/Pujansharma/Petcare.com"
       }
     }
   ]
