@@ -103,7 +103,6 @@ function showSkills(skills) {
     });
     skillsContainer.innerHTML = skillHTML;
 }
-
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
@@ -236,10 +235,10 @@ GitHubCalendar(".calendar", "Ayush-kr-shanu", {
     tooltips: true
   });
   document.querySelector("#btn1").addEventListener("click", ()=>{
-    window.location.href="https://drive.google.com/file/d/1LUt1hHXN-n2oSsQR4IVhJvuPn9uz07Xg/view"
+    window.location.href="https://drive.google.com/file/d/1JqNla2QKbQvm-p_-ajmZrfzgECHIVJtP/view?usp=sharing"
   });
 
   document.querySelector(".btn1111").addEventListener("click", ()=>{
-    window.location.href="https://drive.google.com/file/d/1LUt1hHXN-n2oSsQR4IVhJvuPn9uz07Xg/view"
+    window.location.href="https://drive.google.com/file/d/1JqNla2QKbQvm-p_-ajmZrfzgECHIVJtP/view?usp=sharing"
   });
 
