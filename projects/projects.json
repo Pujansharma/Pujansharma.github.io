@@ -20,13 +20,13 @@
       }
     },
     {
-      "name": "Cultfit(Clone)",
-      "desc": "HTML CSS JS NodeJs ExpressJs Used as Techstacks in this  project. It is solo project completed in 5 days.",
-      "image": "nykka",
-      "category": "Full stack web Development",
+      "name": "SynthAI",
+      "desc": "SynthAI: A responsive AI chatbot using NLP and machine learning for dynamic, engaging conversations.",
+      "image": "synt",
+      "category": "Prompt Engineering",
       "links": {
-        "view": "https://gentle-beijinho-a9ba89.netlify.app/",
-        "code": "https://github.com/Pujansharma/Cultfit.com"
+        "view": "https://syntai.netlify.app/",
+        "code": "https://github.com/Pujansharma/SynthAI"
       }
     },
     {
