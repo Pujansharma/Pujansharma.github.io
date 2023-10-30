@@ -330,12 +330,15 @@ header .navbar ul li a:hover {
 @media (max-width: 450px) {
   .home .btn {
     margin: 4rem 0;
+  }.home{
+    min-height: 60vh;
   }
   .socials {
     margin-top: 12rem;
   }
   .home .image img {
-    margin-top: -12rem;
+    /* margin-top: -12rem; */
+    display: none;
   }
   .home .content p {
     font-size: 2.2rem;
