@@ -1,13 +1,6 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwcWKYn_YgIVX2c9jt4Y80LNgHTTUJcPsmM3wr0mSqLmOWpTNRYGKzVyUWfgWV0ojw7lw/exec'
-  const form = document.forms['submit-to-google-sheet']
 
-  form.addEventListener('submit', (e)=> {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
-      Swal.fire({
-  title: 'Message Sent Succesfully',
-  timer: 2000
-})
-  })
+  <h1>**pujan sharma**</h1>
+<h6>link:-</h6> https://pujansharma.github.io/
+
+----------------------------------------------------
+<img src="https://github.com/Pujansharma/Pujansharma.github.io/assets/113420172/df1c1dfb-c2ef-4d70-9c55-f2581ceef197" alt="">
