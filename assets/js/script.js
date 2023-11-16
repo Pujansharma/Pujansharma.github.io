@@ -235,10 +235,10 @@ GitHubCalendar(".calendar", "Ayush-kr-shanu", {
     tooltips: true
   });
   document.querySelector("#btn1").addEventListener("click", ()=>{
-    window.location.href="https://drive.google.com/file/d/1JqNla2QKbQvm-p_-ajmZrfzgECHIVJtP/view?usp=sharing"
+    window.location.href="https://drive.google.com/file/d/1t_UyOEGc86YSkvesgcCnaPpUO7jSj3U9/view?usp=sharing"
   });
 
   document.querySelector(".btn1111").addEventListener("click", ()=>{
-    window.location.href="https://drive.google.com/file/d/1JqNla2QKbQvm-p_-ajmZrfzgECHIVJtP/view?usp=sharing"
+    window.location.href="https://drive.google.com/file/d/1t_UyOEGc86YSkvesgcCnaPpUO7jSj3U9/view?usp=sharing"
   });
 
