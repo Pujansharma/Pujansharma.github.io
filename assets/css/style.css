@@ -145,6 +145,8 @@ header .navbar ul li a:hover {
     text-align: left;
     align-items: flex-start;
     background-color: #0e0f31;
+  }.home .content {
+    /* padding-top: 6rem; */
   }
   header .navbar ul {
     flex-flow: column;
@@ -207,7 +209,7 @@ header .navbar ul li a:hover {
 }
 .home .content {
   flex: 1 1 40rem;
-  padding-top: 1rem;
+  padding-top: 5rem;
   z-index: 1;
 }
 .home .image {
